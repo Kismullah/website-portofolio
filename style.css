@@ -1,0 +1,129 @@
+:root {
+    --mainColor : #000000;
+    --secondaryColor : #141414;
+    --acsenColor : #0024E1;
+}
+
+body {
+    background-color: var(--mainColor)!important;
+    min-height: 900px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar */
+
+.nav-link.active {
+    color: var(--acsenColor)!important;
+    font-weight: 700;
+}
+
+
+/* End Navbar */
+
+/* Hero */
+
+#hero {
+    color: white;
+    min-height: 100vh;
+}
+
+hero h1 {
+    font-size: 3rem;
+}
+
+hero h2 {
+    font-weight: 300;
+}
+
+hero p {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+section h1 {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.color-acsent {
+    color: var(--acsenColor);
+}
+
+/* CTA */
+.btn-custom1 {
+    background-color: var(--acsenColor) !important;
+    text-align: center;
+    color: #fff;
+    height: 40px;
+    min-width: 150px;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.btn-custom1:hover {
+    box-shadow: 0 0 5px rgba(000, 8, blue, 16);
+}
+/* End CTA */
+
+.cv {
+    color: white;
+    cursor: pointer;
+    font-size: 1.1rem;
+
+}
+
+.social-icon svg {
+    margin-right: .7em;
+}
+
+/* End Hero */
+
+/* About */
+hr {
+    width: 35%;
+    height: 10px;
+    color: var(--acsenColor) !important;
+    margin: 0 auto !important;
+    opacity: 100%;
+}
+
+#about {
+    min-height: 100%;
+    width: 100%;
+    background-color: var(--secondaryColor);
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20%;
+}
+/* End About */
+
+/* Skill */
+
+#skill {
+    min-width: 600px;
+    width: 100%;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20%;
+}
+
+#skill img {
+    width: 10%;
+    margin: 8%px;
+    margin: 0 auto !important;
+
+}
+/* End Skill */
+
+/* Sertifikat */
+#sertifikat {
+    padding: 20px;
+    padding-bottom: 80px;
+    background-color: var(--secondaryColor);
+}
+
+#sertifikat img {
+    background-color: #0024E1;
+    height: 200px;
+}
+
