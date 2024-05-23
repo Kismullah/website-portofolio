@@ -53,7 +53,7 @@ section h1 {
 .btn-custom1 {
     background-color: var(--acsenColor) !important;
     text-align: center;
-    color: #fff;
+    text-color: white !important;
     height: 40px;
     min-width: 150px;
     font-weight: 700;
@@ -94,6 +94,14 @@ hr {
     color: white;
     padding-top: 20px;
     padding-bottom: 20%;
+
+    hr {
+        width: 35%;
+        height: 10px;
+        color: var(--acsenColor) !important;
+        margin: 0 auto !important;
+        opacity: 100%;
+    }
 }
 /* End About */
 
@@ -117,13 +125,45 @@ hr {
 
 /* Sertifikat */
 #sertifikat {
-    padding: 20px;
-    padding-bottom: 80px;
+    min-height: 100%;
+    width: 100%;
     background-color: var(--secondaryColor);
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20%;
+
+    hr {
+        width: 35%;
+        height: 10px;
+        color: var(--acsenColor) !important;
+        margin: 0 auto !important;
+        opacity: 100%;
+    }
 }
 
 #sertifikat img {
+    
     background-color: #0024E1;
-    height: 200px;
+    height: 80px;
 }
 
+#portofolio {
+
+
+    hr {
+        width: 35%;
+        height: 10px;
+        color: var(--acsenColor) !important;
+        margin: 0 auto !important;
+        opacity: 100%;
+    }
+
+
+}
+
+/* Portofolio */
+
+#portofolio .container {
+    padding: 80px 10px ;
+}
+/* End Poetofolio */
